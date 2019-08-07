@@ -7,16 +7,18 @@ import './App.css';
 import {Button} from 'antd'
 import WrappedNormalLoginForm from './FormTest'
 import KFormTest from './KFormTest'
-
+import Dialog from './Dialog'
+import Tree from './Tree'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
+      <header>
+        <Dialog>something!!!
+        </Dialog>
+        <Tree/>
         <Button type="primary">Button</Button>
-        <KFormTest></KFormTest>
-        <WrappedNormalLoginForm></WrappedNormalLoginForm>
+        {/*<KFormTest></KFormTest>*/}
+        {/*<WrappedNormalLoginForm></WrappedNormalLoginForm>*/}
       </header>
     </div>
   );
