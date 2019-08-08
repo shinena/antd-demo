@@ -9,6 +9,9 @@ import WrappedNormalLoginForm from './FormTest'
 import KFormTest from './KFormTest'
 import Dialog from './Dialog'
 import Tree from './Tree'
+// import ReduxTest from './ReduxTest'
+import MyRedux from './MyRedux'
+
 function App() {
   return (
     <div className="App">
@@ -16,7 +19,9 @@ function App() {
         <Dialog>something!!!
         </Dialog>
         <Tree/>
-        <Button type="primary">Button</Button>
+        {/*<Button type="primary">Button</Button>*/}
+        {/*<ReduxTest></ReduxTest>*/}
+        <MyRedux></MyRedux>
         {/*<KFormTest></KFormTest>*/}
         {/*<WrappedNormalLoginForm></WrappedNormalLoginForm>*/}
       </header>
